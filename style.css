@@ -1,0 +1,32 @@
+.title {
+    font-weight: 800;
+    font-size: 45px;
+    color: azure;
+    margin-left: 42px;
+    
+}
+.lanch {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
+    color: white;
+}
+td {
+    font-size: 15px;
+    text-align: left;
+}
+.price {
+    color: blue;
+    font-size: 22px;
+}
+img {
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.orange {
+    margin-top: -5px;
+}
+.container {
+    margin-top: -3px;
+    
+}
