@@ -1,0 +1,20 @@
+span {
+    font-size: 35px;
+    margin-left: 20px;
+    margin-right: 10px;
+  
+    color: red;
+    font-weight: bold;
+  
+}
+p {
+    /* font-family: 'Luckiest Guy', cursive; */
+    font-size: 22px;
+    font-weight: bold;
+}
+.hawts {
+    font-size: 40px;
+}
+.water {
+    margin-top: -2px;
+}
