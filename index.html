@@ -30,18 +30,19 @@
     <title>Dougão Lanches</title>
 </head>
 <body>
-   <div class="container  border-linear ">
-     <div class="header text-center pt-4 border-2 h-44 ms:w-full bg-backgraund ">
+   <div class="container  border-linear md: w-full">
+     <div class="header text-center pt-4 border-2 h-44 ms:w-full md:w-full bg-backgraund ">
+    
       <div class="flex">
           <div class="flex w-16 ">
-              <img class="" src="img/lanche.jpeg ">
+              <img class="md:ml-72" src="img/lanche.jpeg ">
           </div>
-        <div class="title text-reds">DOUGÃO</div>
+        <div class="title text-reds md:ml-72 md:pl-24">DOUGÃO</div>
       </div>
-          <P class=" lanch ">LANCHES</P>
+          <P class=" lanch md:mr-48">LANCHES</P>
         <div class="nav ">
           <ul class="flex ml-20 text-white">
-            <li class="p-2">LANCHES</li>
+            <li class="p-2 md:ml-80">LANCHES</li>
            <a href="combos.html"> <li class="p-2">COMBOS</li></a>
            <a href="water.html"><li class="p-2">BEBIDAS</li></a>
           </ul>
@@ -49,9 +50,27 @@
      </div>
    </div>
    <div class=" orange text-center bg-orange-300">
-      <table class="table-fixed text-center   ">
+    <div id="popup"class="popup">
+      <div class="popup-content m-5 md: m-10">
+        <div class="text-center  mt-2 p-2 bg-info  position-absolute rounded">
+          <div class="w- p-2 text-centr bg-gray-500 border border-blue-800">
+              <h1 class="text-reds">PROMOÇÃO</h1>
+              <p class="text-reds">de hoje</p>
+              <div class="flex ml-24 rounded">
+                  <div class="text-reds pr-2">X-EGG SALADA</div>
+                  <div class="text-reds">15,00</div>
+              </div>
+              <p class="text-reds">ATENÇÃO PROMOÇÃO VALIDA SOMENTE PARA O DIA:</p>
+              <p class="text-reds"  id="title"></p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  
+      <table class="table-fixed text-center  md:w-full ">
         <thead>
-          <tr class="mr-8">
+          <tr class="mr-8 ">
                <th></th>      
               <th class="text-xl">LANCHES</th>
               <th class="pl-2 pr-4 text-xl">INGREDIENTES</th>
@@ -144,7 +163,7 @@
             <td class="price">19,00</td>
           </tr>
           <tr>
-            <th class="pl-4">8-</th>
+            <th class="">8-</th>
             <td>X-EGG BACON SALADA <hr class="linear"></td>
             <td>
               <details>
@@ -242,21 +261,40 @@
         </tbody>
       </table>
       <div class="div">
-        <ol class="mt-2 text ml-20">
+        <ol class="mt-2 text ml-20  md:text-center">
+         <strong><li>ACEITAMOS CARTÕES</li></strong>
           <li>Adicional catupiry / cheder R$ 3,00</li>
           <li>Adicional de Ovo R$ 2,00</li>
           <li>Adicional de Maionese R$ 1,50</li>
         </ol>
       </div>
-      <div class="bg-gray-500 w-36 ml-32 rounded mb-4">
-        <a href="lanche.html"><button class="p-2  text-white">MAIS LANCHES</button></a>
+      <div class="bg-gray-500 w-36 ml-32 rounded mb-4 ">
+        <a href="lanche.html"><button class="p-2 text-white">MAIS LANCHES</button></a>
       </div>
       <div class="text-xl text-green-600">
-        <p>Entre em contato clicando neste icone</p>
+        <p >Entre em contato clicando neste icone</p>
         <a href="https://wa.me/5535988009835" target="_blank">
           <i class="fa-brands fa-whatsapp hawtsap"></i>
         </a>
       </div>
    </div>
+   <script>
+    setTimeout(function(){
+    var a = document.getElementById("popup");
+    a.style="display:none";
+    }, 7000);
+const date = new Date();
+
+const day = String(date.getDate()).padStart(2 ,'0');
+const month = String(date.getMonth() + 1).padStart(2, '0');
+const year = String(date.getFullYear());
+ 
+const fullDate = `${day}/${month}/${year}`;
+
+const title = document.getElementById('title');
+ 
+ title.innerText = fullDate;
+ 
+</script>
 </body>
 </html>
