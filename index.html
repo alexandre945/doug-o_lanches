@@ -20,7 +20,11 @@
                 backgraund: 'rgb(220 38 38);',
                 reds: '#f7ff00',
                 gren: '#00ff00',
-                white: 'rgb(210, 210, 210)'
+                white: 'rgb(210, 210, 210)',
+                yello: '#facc15',
+                rown: '#b45309',
+                picini: '#4ade80',
+                lilais: '#7e22ce'
               }
             }
           }
@@ -32,7 +36,6 @@
 <body>
    <div class="container  border-linear md: w-full">
      <div class="header text-center pt-4 border-2 h-44 ms:w-full md:w-full bg-backgraund ">
-    
       <div class="flex">
           <div class="flex w-16 ">
               <img class="md:ml-72" src="img/lanche.jpeg ">
@@ -50,18 +53,17 @@
      </div>
    </div>
    <div class=" orange text-center bg-orange-300">
-    <div id="popup"class="popup">
-      <div class="popup-content m-5 md: m-10">
-        <div class="text-center  mt-2 p-2 bg-info  position-absolute rounded">
-          <div class="w- p-2 text-centr bg-gray-500 border border-blue-800">
-              <h1 class="text-reds">PROMOÇÃO</h1>
-              <p class="text-reds">de hoje</p>
-              <div class="flex ml-24 rounded">
-                  <div class="text-reds pr-2">X-EGG SALADA</div>
-                  <div class="text-reds">15,00</div>
+    <div id="popup"class="popup rounded pt-12">
+      <div class="popup-content m-5 md: m-10 ">
+        <div class="text-center  mt-2 p-2 bg-info  position-absolute ">
+          <div class="w- p-2 text-centr bg-picini border border-blue-800 rounded">
+            <strong>  <h1 class="bg-yello p-2 rounded">PROMOÇÃO</h1></strong>
+              <div class="flex ml-24 rounded md:ml-80">
+                  <div class=" pr-2">X-EGG SALADA</div>
+                  <div class="">15,00</div>
               </div>
-              <p class="text-reds">ATENÇÃO PROMOÇÃO VALIDA SOMENTE PARA O DIA:</p>
-              <p class="text-reds"  id="title"></p>
+              <p class="">ATENÇÃO PROMOÇÃO VALIDA SOMENTE PARA O DIA:</p>
+              <p class=""  id="title"></p>
             
           </div>
         </div>
@@ -268,7 +270,7 @@
           <li>Adicional de Maionese R$ 1,50</li>
         </ol>
       </div>
-      <div class="bg-gray-500 w-36 ml-32 rounded mb-4 ">
+      <div class="bg-lilais w-36 ml-32 rounded mb-4 ">
         <a href="lanche.html"><button class="p-2 text-white">MAIS LANCHES</button></a>
       </div>
       <div class="text-xl text-green-600">
@@ -282,7 +284,7 @@
     setTimeout(function(){
     var a = document.getElementById("popup");
     a.style="display:none";
-    }, 7000);
+    }, 5000);
 const date = new Date();
 
 const day = String(date.getDate()).padStart(2 ,'0');
