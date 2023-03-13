@@ -38,252 +38,256 @@
     <title>Dougão Lanches</title>
 </head>
 <body>
-   <div class="container  border-linear md: w-full">
+   <div class="container lg:w-full lg:ml-44 lg:w-scren">
      <div class="header text-center pt-4 border-2 h-44 ms:w-full md:w-full bg-backgraund ">
       <div class="flex">
           <div class="flex w-16 ">
               <img class="md:ml-72" src="img/lanche.jpeg ">
           </div>
-        <div class="title text-reds md:ml-72 md:pl-24">DOUGÃO</div>
+        <div class="title text-reds lg:ml-80 md:pl-24">DOUGÃO</div>
       </div>
-          <P class=" lanch md:mr-80">LANCHES</P>
-        <div class="md:ml-80">
-          <ul class="flex ml-20 text-white">
+          <P class=" lanch lg:pl-62">LANCHES</P>
+        <div class="lg:pl-80">
+          <ul class="flex ml-20 lg:pl-80 text-white">
             <a href="index.html"><li class="p-2">LANCHES</li></a>
            <a href="combos.html"> <li class="p-2">COMBOS</li></a>
            <a href="water.html"><li class="p-2">BEBIDAS</li></a>
           </ul>
        </div>
      </div>
-   </div>
-   <div class=" orange text-center bg-orange-300">
-    <div id="popup"class="popup rounded pt-12">
-      <div class="popup-content m-5 md: m-10 ">
-        <div class="text-center  mt-2 p-2 bg-info  position-absolute ">
-          <div class="w- p-2 text-centr bg-amber border border-blue-800 rounded">
-            <strong>  <h1 class="bg-yello p-2 rounded">PROMOÇÃO</h1></strong>
-              <div class="flex ml-24 rounded md:ml-80">
-                  <div class=" pr-2">X-EGG SALADA</div>
-                  <div class="">15,00</div>
+        <div class=" orange text-center bg-orange-300">
+          <div id="popup"class="popup rounded pt-12">
+            <div class="popup-content m-5 md: m-10 ">
+              <div class="text-center  mt-2 p-2 bg-info  position-absolute ">
+                <div class="lg:ml-80 md:mr-36 p-2 text-centr bg-amber border border-blue-800 rounded-md">
+                  <strong>  <h1 class="md:ml-24 md:mr-24 md:mt-2 bg-yello p-2 rounded-md text-xl">PROMOÇÃO</h1></strong>
+                    <div class="flex ml-24 rounded lg:ml-80 text-center">
+                        <div class=" pr-2">X-EGG SALADA</div>
+                        <div class="">15,00</div>
+                    </div>
+                    <p class="">ATENÇÃO PROMOÇÃO VALIDA SOMENTE PARA O DIA:</p>
+                    <p class=""  id="title"></p>
+                </div>
               </div>
-              <p class="">ATENÇÃO PROMOÇÃO VALIDA SOMENTE PARA O DIA:</p>
-              <p class=""  id="title"></p>
-            
+            </div>
           </div>
+        <div class="justify-center">
+          <table class="table-fixed pt-2 md:w-full ">
+            <thead>
+              <div class="lg:items-center">
+                  <tr class="lg:items-center lg:pt-2">
+                    <th></th>      
+                    <th class="text-xl pt-8 pr-8 lg:pr-72">LANCHES</th>
+                    <th class="text-xl pt-8 pl-4 lg:pr-72">INGREDIENTES</th>
+                    <th class="text-xl pt-8 pl-4 lg:pr-72">PREÇO</th>
+                  </tr>
+              </div>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="mr-36 ">1-</th>
+                <td class="to-transparent">MISTO <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details border-style: solid; border border-green-700  text-white bg-slate-700 p-2 rounded">Presunto, mussarela e maionese</p>
+                  </details>
+                  <hr class="linear">
+                </td>
+                <td class="price pl-4">13,00</td>
+              </tr>
+              <tr>
+                <th class="pl-4 ">2-</th>
+                <td>HAMBURGUER <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr,<br>tomate e maionese</p>
+                  </details>
+                  <hr class="linear">
+                </td>
+                <td class="price pl-4">13,00</td>
+              </tr>
+              <tr>
+                <th class="pl-4">3-</th>
+                <td>X-FUNKEIRO <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 56gr,musarre,presunto,<br>milho,alface,tomate,<br>batata e maionese</p>
+                  </details>
+                  <hr class="linear">
+                </td>
+                <td class="price pl-4">14,00</td>
+              </tr>
+              <tr><th class="pl-4">4-</th>
+                <td>X-BURGUE <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela tomate<br> e maionese</p>
+                  </details>
+                  <hr class="linear">
+                </td>
+                <td class="price pl-4">15,00</td>
+              </tr>
+              <tr>
+                <th class="pl-4">5-</th>
+                <td>X-SALADA COMPLETO <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela<br>alface,tomate<br> e maionese</p>
+                  </details>
+                  <hr class="linear">
+                </td>
+                <td class="price pl-4">17,00</td>
+              </tr>
+              <tr>
+                <th class="pl-4">6-</th>
+                <td>X-EGG SALADA <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela tomate,alface<br>ovo,milho<br>batata e maionese</p>
+                  </details>
+                  <hr class="linear">
+                  
+                </td>
+                <td class="price pl-4">18,00</td>
+              </tr>
+              <tr>
+                <th class="pl-4">7-</th>
+                <td>X-BACON <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela bacon,<br>tomate,batata<br>e maionese</p>
+                  </details>
+                  <hr class="linear">
+                </td>
+                <td class="price pl-4">19,00</td>
+              </tr>
+              <tr>
+                <th class="ml-4">8-</th>
+                <td>X-EGG BACON SALADA <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,bacon,<br>ovo,alface,tomate<br>milho,batata<br>e maionese</p>
+                  </details>
+                  <hr class="linear">
+                </td>
+                <td class="price pl-4">20,00</td>
+              </tr>
+              <tr>
+                <th class="pl-4">9-</th>
+                <td>X-BACON SALADA <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,bacon,<br>alface,tomate<br>milho,batata<br>e maionese</p>
+                  </details>
+                  <hr class="linear">
+                </td>
+                <td class="price pl-4">21,00</td>
+              </tr>
+              <tr>
+                <th class="pl-4">10-</th>
+                <td>X-EGG BACON <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,bacon<br>ovo,tomate,<br>batatae maionese</p>
+                  </details>
+                  <hr class="linear">
+                </td>
+                <td class="price pl-4">20,00</td>
+              </tr>
+              <tr>
+                <th class="pl-4">11-</th>
+                <td>X-EGG <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,tomate<br>ovo,batata<br>e maionese</p>
+                  </details>
+                  <hr class="linear">
+                </td>
+                <td class="price pl-4">17,00</td>
+              </tr>
+              <tr>
+                <th class="pl-4">12-</th>
+                <td>ESPECIAL <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,presunto<br>tomate,milho<br>batata e maionese</p>
+                  </details>
+                  <hr class="linear">
+                </td>
+                <td class="price pl-4">19,00</td>
+              </tr>
+              <tr>
+                <th class="pl-4">13-</th>
+                <td>SANDUBA <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,presunto<br>tomate,milho<br>ovo,alface,<br>batata e maionese</p>
+                  </details>
+                  <hr class="linear">
+                </td>
+                <td class="price pl-4">20,00</td>
+              </tr>
+              <tr>
+                <th class="pl-4">14-</th>
+                <td>CROK <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,bacon<br>tomate,milho,<br>batata e maionese</p>
+                  </details>
+                  <hr class="linear">
+                </td>
+                <td class="price pl-4">20,00</td>
+              </tr>
+                <tr>
+                  <th class=" thed pl-4" >15-</th>
+                <td>ESPERTO <hr class="linear-1"></td>
+                <td>
+                  <details>
+                    <summary class="pl-8">INGREDIENTES</summary>
+                    <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,presunto<br>catupiry,alface,<br>tomate,milho,<br>batata e maionese</p>
+                  </details>
+                  <hr class="linear">
+                </td>
+                <td class="price pl-4">23,00</td>
+              </tr>
+            </tbody>
+        </table>
+
         </div>
-      </div>
-    </div>
-  
-      <table class="table-fixed text-center  md:w-full ">
-        <thead>
-          <tr class="mr-8 ">
-               <th></th>      
-              <th class="text-xl">LANCHES</th>
-              <th class="pl-2 pr-4 text-xl">INGREDIENTES</th>
-              <th class="text-xl">PREÇO</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th class="pl-4 ">1-</th>
-            <td class="to-transparent">MISTO <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details border-style: solid; border border-green-700  text-white bg-slate-700 p-2 rounded">Presunto, mussarela e maionese</p>
-              </details>
-              <hr class="linear">
-            </td>
-            <td class="price">13,00</td>
-          </tr>
-          <tr>
-            <th class="pl-4 ">2-</th>
-            <td>HAMBURGUER <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr,<br>tomate e maionese</p>
-              </details>
-              <hr class="linear">
-            </td>
-            <td class="price">13,00</td>
-          </tr>
-          <tr>
-            <th class="pl-4">3-</th>
-            <td>X-FUNKEIRO <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 56gr,musarre,presunto,<br>milho,alface,tomate,<br>batata e maionese</p>
-              </details>
-              <hr class="linear">
-            </td>
-            <td class="price">14,00</td>
-          </tr>
-          <tr><th class="pl-4">4-</th>
-            <td>X-BURGUE <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela tomate<br> e maionese</p>
-              </details>
-              <hr class="linear">
-            </td>
-            <td class="price">15,00</td>
-          </tr>
-          <tr>
-            <th class="pl-4">5-</th>
-            <td>X-SALADA CPTO <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela<br>alface,tomate<br> e maionese</p>
-              </details>
-              <hr class="linear">
-            </td>
-            <td class="price">17,00</td>
-          </tr>
-          <tr>
-            <th class="pl-4">6-</th>
-            <td>X-EGG SALADA <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela tomate,alface<br>ovo,milho<br>batata e maionese</p>
-              </details>
-              <hr class="linear">
-              
-            </td>
-            <td class="price">18,00</td>
-          </tr>
-          <tr>
-            <th class="pl-4">7-</th>
-            <td>X-BACON <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela bacon,<br>tomate,batata<br>e maionese</p>
-              </details>
-              <hr class="linear">
-            </td>
-            <td class="price">19,00</td>
-          </tr>
-          <tr>
-            <th class="">8-</th>
-            <td>X-EGG BACON SALADA <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,bacon,<br>ovo,alface,tomate<br>milho,batata<br>e maionese</p>
-              </details>
-              <hr class="linear">
-            </td>
-            <td class="price">20,00</td>
-          </tr>
-          <tr>
-            <th class="pl-4">9-</th>
-            <td>X-BACON SALADA <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,bacon,<br>alface,tomate<br>milho,batata<br>e maionese</p>
-              </details>
-              <hr class="linear">
-            </td>
-            <td class="price">21,00</td>
-          </tr>
-          <tr>
-            <th class="pl-4">10-</th>
-            <td>X-EGG BACON <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,bacon<br>ovo,tomate,<br>batatae maionese</p>
-              </details>
-              <hr class="linear">
-            </td>
-            <td class="price">20,00</td>
-          </tr>
-          <tr>
-            <th class="pl-4">11-</th>
-            <td>X-EGG <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,tomate<br>ovo,batata<br>e maionese</p>
-              </details>
-              <hr class="linear">
-            </td>
-            <td class="price">17,00</td>
-          </tr>
-          <tr>
-            <th class="pl-4">12-</th>
-            <td>ESPECIAL <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,presunto<br>tomate,milho<br>batata e maionese</p>
-              </details>
-              <hr class="linear">
-            </td>
-            <td class="price">19,00</td>
-          </tr>
-          <tr>
-            <th class="pl-4">13-</th>
-            <td>SANDUBA <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,presunto<br>tomate,milho<br>ovo,alface,<br>batata e maionese</p>
-              </details>
-              <hr class="linear">
-            </td>
-            <td class="price">20,00</td>
-          </tr>
-          <tr>
-            <th class="pl-4">14-</th>
-            <td>CROK <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,bacon<br>tomate,milho,<br>batata e maionese</p>
-              </details>
-              <hr class="linear">
-            </td>
-            <td class="price">20,00</td>
-          </tr>
-            <tr>
-              <th class=" thed pl-4" >15-</th>
-            <td>ESPERTO <hr class="linear"></td>
-            <td>
-              <details>
-                <summary>INGREDIENTES</summary>
-                <p class="details text-white border  border-blue-800 bg-slate-700 p-2 rounded">Hamburguer 90gr<br>mussarela,presunto<br>catupiry,alface,<br>tomate,milho,<br>batata e maionese</p>
-              </details>
-              <hr class="linear">
-            </td>
-            <td class="price">23,00</td>
-          </tr>
-        </tbody>
-      </table>
-      <div class="div">
-        <ol class="mt-2 text ml-20  md:text-center">
-         <strong><li>ACEITAMOS CARTÕES</li></strong>
-          <li>Adicional catupiry / cheder R$ 3,00</li>
-          <li>Adicional de Ovo R$ 2,00</li>
-          <li>Adicional de Maionese R$ 1,50</li>
-        </ol>
-      </div>
-      <div class="bg-blueing w-36 ml-32 pt-2 mt-2 rounded mb-4 md:ml-80">
-        <a href="lanche.html"><button class="p-2 text-white ">MAIS LANCHES</button></a>
-      </div>
-      <div class="text-xl text-green-600">
-        <p >Entre em contato clicando neste icone</p>
-        <a href="https://wa.me/5535988009835" target="_blank">
-          <i class="fa-brands fa-whatsapp hawtsap"></i>
-        </a>
-      </div>
-   </div>
+       
+            <div class="div">
+              <ul class="mt-2 text ml-20 lg:ml-32 lg:list-none list-disc md:text-center">
+              <strong><li>ACEITAMOS CARTÕES</li></strong>
+                <li>Adicional catupiry / cheder R$ 3,00</li>
+                <li>Adicional de Ovo R$ 2,00</li>
+                <li>Adicional de Maionese R$ 1,50</li>
+              </ul>
+            </div>
+            <div class="bg-blueing w-36 ml-32 pt-2 mt-2 lg:ml-72 rounded mb-4 md:ml-80 hover:bg-sky-700">
+              <a href="lanche.html"><button class="p-2 text-white ">MAIS LANCHES</button></a>
+            </div>
+            <div class="text-xl text-green-600">
+              <p >Entre em contato clicando neste icone</p>
+              <a href="https://wa.me/5535988009835" target="_blank">
+                <i class="fa-brands fa-whatsapp hawtsap"></i>
+              </a>
+            </div>
+        </div>
+    </div>    
    <script>
     setTimeout(function(){
     var a = document.getElementById("popup");

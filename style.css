@@ -37,7 +37,11 @@ img {
    
     background-color: blue;
     height: 2px;
-    
+    margin-left: 20px;
+}
+.linear-1 {
+    background-color: blue;
+    height: 2px;
 }
 .hawtsap {
     font-size: 60px;
@@ -48,4 +52,5 @@ img {
 .detai {
     border-color: green;
 }
+
 
