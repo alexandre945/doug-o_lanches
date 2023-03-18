@@ -28,7 +28,8 @@
                 esmeralda: '#047857',
                 blueing: '#0284c7',
                 greend: '#a3e635',
-                amber: '#d97706'
+                amber: '#d97706',
+                branca: 'rgb(255,255,255)'
               }
             }
           }
@@ -39,16 +40,16 @@
 </head>
 <body>
    <div class="container lg:w-full lg:ml-44 lg:w-scren">
-     <div class="header text-center pt-4 border-2 h-44 ms:w-full md:w-full bg-backgraund ">
+     <div class="header text-center pt-4 border-2 h-44 ms:w-full md:w-full bg-orange-500">
       <div class="flex">
           <div class="flex w-16 ">
               <img class="md:ml-72" src="img/lanche.jpeg ">
           </div>
-        <div class="title text-reds lg:ml-80 md:pl-24">DOUGÃO</div>
+        <div class="title  lg:ml-80 md:pl-24">DOUGÃO</div>
       </div>
           <P class=" lanch lg:pl-62">LANCHES</P>
         <div class="lg:pl-80">
-          <ul class="flex ml-20 lg:pl-80 text-white">
+          <ul class="flex ml-20 lg:pl-80 text-black">
             <a href="index.html"><li class="p-2">LANCHES</li></a>
            <a href="combos.html"> <li class="p-2">COMBOS</li></a>
            <a href="water.html"><li class="p-2">BEBIDAS</li></a>
@@ -60,7 +61,7 @@
             <div class="popup-content m-5 md: m-10 ">
               <div class="text-center  mt-2 p-2 bg-info  position-absolute ">
                 <div class="lg:ml-80 md:mr-36 p-2 text-centr bg-amber border border-blue-800 rounded-md">
-                  <strong>  <h1 class="md:ml-24 md:mr-24 md:mt-2 bg-yello p-2 rounded-md text-xl">PROMOÇÃO</h1></strong>
+                  <strong>  <h1 class="md:ml-24 md:mr-24 md:mt-2 bg-yello  p-2 md:outline outline-offset-2 outline-2 rounded-md text-xl">PROMOÇÃO</h1></strong>
                     <div class="flex ml-24 rounded lg:ml-80 text-center">
                         <div class=" pr-2">X-EGG SALADA</div>
                         <div class="">15,00</div>
@@ -71,6 +72,22 @@
               </div>
             </div>
           </div>
+            <div class="popup-warep hidden pt-8  ">
+              <div class="bg-branca w-72 h-64 ml-12 rounded-md">
+                <button class="button ml-64">X</button>
+                <div class="mb-1">
+                  <h2>MISTO</h2>
+                  <div class="flex ml-24 mb-12 pt-8">
+                    <h3>Preço</h3>
+                    <span class="pl-12">13,00</span>
+                  </div>
+                  <label for="">quantidade</label>
+                  <input class="border border-slate-900 w-12 text-center outline-zinc-900"type="number"  name="" id="">
+               
+                </div>
+                <BUtton class="p-4 mt-4 rounded bg-esmeralda text-white">ADD AO CARRINHO</BUtton>
+              </div>
+            </div>
         <div class="justify-center">
           <table class="table-fixed pt-2 md:w-full ">
             <thead>
@@ -85,8 +102,10 @@
             </thead>
             <tbody>
               <tr>
+                <!-- <th class="mr-36 "><button class="buttonclose"><i class="fa-solid fa-cart-shopping text-blue-500 "></i></button></th> -->
                 <th class="mr-36 ">1-</th>
-                <td class="to-transparent">MISTO <hr class="linear-1"></td>
+              
+                <td  class="to-transparent">MISTO <hr class="linear-1"></td>
                 <td>
                   <details>
                     <summary class="pl-8">INGREDIENTES</summary>
@@ -94,11 +113,14 @@
                   </details>
                   <hr class="linear">
                 </td>
-                <td class="price pl-4">13,00</td>
+                
+                <td class="price pl-4 font-bold">13,00</td>
+                
               </tr>
               <tr>
-                <th class="pl-4 ">2-</th>
-                <td>HAMBURGUER <hr class="linear-1"></td>
+                <!-- <th class="mr-36 "><button  class="buttonclose"><i class="fa-solid fa-cart-shopping text-blue-500 "></i></button></th> -->
+                <th >2-</th>
+                <td  >HAMBURGUER <hr class="linear-1"></td>
                 <td>
                   <details>
                     <summary class="pl-8">INGREDIENTES</summary>
@@ -106,7 +128,7 @@
                   </details>
                   <hr class="linear">
                 </td>
-                <td class="price pl-4">13,00</td>
+                <td class="price pl-4 font-bold">13,00</td>
               </tr>
               <tr>
                 <th class="pl-4">3-</th>
@@ -118,7 +140,7 @@
                   </details>
                   <hr class="linear">
                 </td>
-                <td class="price pl-4">14,00</td>
+                <td class="price pl-4 font-bold">14,00</td>
               </tr>
               <tr><th class="pl-4">4-</th>
                 <td>X-BURGUE <hr class="linear-1"></td>
@@ -129,7 +151,7 @@
                   </details>
                   <hr class="linear">
                 </td>
-                <td class="price pl-4">15,00</td>
+                <td class="price pl-4 font-bold">15,00</td>
               </tr>
               <tr>
                 <th class="pl-4">5-</th>
@@ -141,7 +163,7 @@
                   </details>
                   <hr class="linear">
                 </td>
-                <td class="price pl-4">17,00</td>
+                <td class="price pl-4 font-bold">17,00</td>
               </tr>
               <tr>
                 <th class="pl-4">6-</th>
@@ -154,7 +176,7 @@
                   <hr class="linear">
                   
                 </td>
-                <td class="price pl-4">18,00</td>
+                <td class="price pl-4 font-bold">18,00</td>
               </tr>
               <tr>
                 <th class="pl-4">7-</th>
@@ -166,7 +188,7 @@
                   </details>
                   <hr class="linear">
                 </td>
-                <td class="price pl-4">19,00</td>
+                <td class="price pl-4 font-bold">19,00</td>
               </tr>
               <tr>
                 <th class="ml-4">8-</th>
@@ -178,7 +200,7 @@
                   </details>
                   <hr class="linear">
                 </td>
-                <td class="price pl-4">20,00</td>
+                <td class="price pl-4 font-bold">20,00</td>
               </tr>
               <tr>
                 <th class="pl-4">9-</th>
@@ -190,7 +212,7 @@
                   </details>
                   <hr class="linear">
                 </td>
-                <td class="price pl-4">21,00</td>
+                <td class="price pl-4 font-bold">21,00</td>
               </tr>
               <tr>
                 <th class="pl-4">10-</th>
@@ -202,7 +224,7 @@
                   </details>
                   <hr class="linear">
                 </td>
-                <td class="price pl-4">20,00</td>
+                <td class="price pl-4 font-bold">20,00</td>
               </tr>
               <tr>
                 <th class="pl-4">11-</th>
@@ -214,7 +236,7 @@
                   </details>
                   <hr class="linear">
                 </td>
-                <td class="price pl-4">17,00</td>
+                <td class="price pl-4 font-bold">17,00</td>
               </tr>
               <tr>
                 <th class="pl-4">12-</th>
@@ -226,7 +248,7 @@
                   </details>
                   <hr class="linear">
                 </td>
-                <td class="price pl-4">19,00</td>
+                <td class="price pl-4 font-bold">19,00</td>
               </tr>
               <tr>
                 <th class="pl-4">13-</th>
@@ -238,7 +260,7 @@
                   </details>
                   <hr class="linear">
                 </td>
-                <td class="price pl-4">20,00</td>
+                <td class="price pl-4 font-bold">20,00</td>
               </tr>
               <tr>
                 <th class="pl-4">14-</th>
@@ -250,7 +272,7 @@
                   </details>
                   <hr class="linear">
                 </td>
-                <td class="price pl-4">20,00</td>
+                <td class="price pl-4 font-bold">20,00</td>
               </tr>
                 <tr>
                   <th class=" thed pl-4" >15-</th>
@@ -262,7 +284,7 @@
                   </details>
                   <hr class="linear">
                 </td>
-                <td class="price pl-4">23,00</td>
+                <td class="price pl-4 font-bold">23,00</td>
               </tr>
             </tbody>
         </table>
@@ -288,23 +310,6 @@
             </div>
         </div>
     </div>    
-   <script>
-    setTimeout(function(){
-    var a = document.getElementById("popup");
-    a.style="display:none";
-    }, 5000);
-const date = new Date();
-
-const day = String(date.getDate()).padStart(2 ,'0');
-const month = String(date.getMonth() + 1).padStart(2, '0');
-const year = String(date.getFullYear());
- 
-const fullDate = `${day}/${month}/${year}`;
-
-const title = document.getElementById('title');
- 
- title.innerText = fullDate;
- 
-</script>
+   <script src="./popup.js"></script>
 </body>
 </html>

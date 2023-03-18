@@ -1,21 +1,21 @@
 .title {
     font-weight: 800;
     font-size: 45px;
-    color: azure;
+    color: yellow;
     margin-left: 42px;
     
 }
 .lanch {
     font-family: 'Luckiest Guy', cursive;
     font-size: 30px;
-    color: white;
+    color: yellow;
 }
 td {
     font-size: 15px;
     text-align: left;
 }
 .price {
-    color: blue;
+    color: red;
     font-size: 22px;
 }
 img {
@@ -35,12 +35,12 @@ img {
 }
 .linear{
    
-    background-color: blue;
+    background-color: black;
     height: 2px;
     margin-left: 20px;
 }
 .linear-1 {
-    background-color: blue;
+    background-color: black;
     height: 2px;
 }
 .hawtsap {
