@@ -1,8 +1,8 @@
 .title {
     font-weight: 800;
-    font-size: 45px;
+    font-size: 55px;
     color: yellow;
-    margin-left: 42px;
+    margin-left: 15px;
     
 }
 .lanch {
@@ -51,6 +51,15 @@ img {
 }
 .detai {
     border-color: green;
+}
+.hamburgue {
+    margin-top: 8px;
+    margin-right: -1px;
+    margin-left: -1px;
+    width: 70px;
+}
+.up {
+    margin-left: -4px;
 }
 
 
