@@ -46,17 +46,20 @@ img {
 .hawtsap {
     font-size: 60px;
 }
-.text {
+.texte {
     text-align: left; 
+    text-shadow: 7px 7px rgb(128, 41, 0);
+    -webkit-text-strok-width:;
 }
 .detai {
     border-color: green;
 }
 .hamburgue {
-    margin-top: 8px;
+    margin-top: 17px;
     margin-right: -1px;
     margin-left: -1px;
     width: 70px;
+    height: 50px;
 }
 .up {
     margin-left: -4px;
@@ -66,5 +69,6 @@ img {
    
     text-align: center;
 }
+
 
 

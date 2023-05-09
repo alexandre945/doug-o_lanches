@@ -21,7 +21,8 @@
                 reds: '#f7ff00',
                 gren: '#00ff00',
                 blue:'rgb(0, 0, 255)',
-                blueing: '#0284c7'
+                blueing: '#0284c7',
+                yello: 'rgb(255, 255, 0)'
               }
             }
           }
@@ -32,25 +33,20 @@
 </head>
 <body>
    <div class="container  border-linear lg:w-full lg:ml-44 lg:w-scren">
-     <div class="header text-center  border-2 h-44 ms:w-full  bg-orange-500">
-      <div class="flex">
-          <div class="flex w-16 ">
-              <img class="pl-4" src="img/hamburgueorange.png ">
-          </div>
-        <div class="title lg:ml-80">DOUGÃO</div>
-      </div>
-          <P class=" lanch ">LANCHES</P>
-        <div class="nav lg:ml-72">
-          <ul class="flex ml-20 text-black">
-            <a href="index.html"><li class="p-2">LANCHES</li></a>
-            <a href="combos.html"> <li class="p-2">COMBOS</li></a>
-            <a href="water.html"><li class="p-2">BEBIDAS</li></a>
-          </ul>
-       </div>
+     <div class="header text-center  border-2 h-44 ms:w-full  bg-gradient-to-t from-red-600 to-orange-500">
+          <div class="title lg:ml-80 texte ml-24">DOUGÃO</div>
+            <P class=" lanch ">LANCHES</P>
+          <div class="nav lg:ml-72">
+            <ul class="flex ml-20 text-yello">
+              <a href="index.html"><li class="p-2">LANCHES</li></a>
+              <a href="combos.html"> <li class="p-2">COMBOS</li></a>
+              <a href="water.html"><li class="p-2">BEBIDAS</li></a>
+            </ul>
+        </div>
      </div>
    </div>
-   <div class=" orange text-center bg-orange-300 lg:w-full">
-      <table class="table-fixed text-center  lg:w-full ">
+   <div class=" orange text-center bg-orange-300 lg:w-full pr-12">
+      <table class="table-fixed text-center  lg:w-full pt-2 p-4">
         <thead>
           <tr>
                <th></th>      
@@ -230,23 +226,23 @@
         </tbody>
       </table>
       <div class="mt-2 text">
-        <ul class="mt-2 list-disc text ml-20">
-          <strong><li>ACEITAMOS CARTÕES</li></strong>
-          <li>Adicional catupiry / cheder R$ 3,00</li>
+        <ul class="mt-2 list-none text ml-20 text-sm">
+          <strong><li class="text-xl">ACEITAMOS CARTÕES</li></strong>
+          <li class="text-sm">Adicional catupiry / cheder R$ 3,00</li>
           <li>Adicional de Ovo R$ 2,00</li>
           <li>Adicional de Maionese R$ 1,50</li>
         </ul>
       </div>
-      <div class="bg-orange-500 w-36 ml-32 mt-2 mb-2 rounded">
-        <a href="index.html"><button class="p-2 text-white">MAIS LANCHES</button></a>
+      <div class="bg-gradient-to-t  from-red-600 to-orange-500 border-2 border-blue  w-36 ml-32 mt-2 mb-2 rounded">
+        <a href="index.html"><button class="p-2  ">MAIS LANCHES</button></a>
       </div>
-      <div class="text-xl text-orange-500">
+      <!-- <div class="text-xl text-orange-500">
         <strong><p>Entre em contato clincando neste icone</p></strong>
         <a href="https://wa.me/5535988009835" target="_blank">
           <i class="fa-brands fa-whatsapp hawts"></i>
         </a>
-      </div>
-      
+      </div> -->
+      <br>
    </div>
 
 </body>
