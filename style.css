@@ -49,7 +49,7 @@ img {
 .texte {
     text-align: left; 
     text-shadow: 7px 7px rgb(128, 41, 0);
-    -webkit-text-strok-width:;
+    -webkit-text-strok-width:1px;
 }
 .detai {
     border-color: green;

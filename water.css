@@ -26,4 +26,15 @@ span {
     font-size: 12px;
     
 }
+.title {
+    text-align: center; 
+    text-shadow: 7px 7px rgb(128, 41, 0);
+    -webkit-text-strok-width:1px;
+}
+.back {
+    background-color: azure;
+    border-radius: 8px;
+}
+
+
 

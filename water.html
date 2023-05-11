@@ -21,8 +21,10 @@
                 backgraund: 'rgb(220 38 38);',
                 reds: '#f7ff00',
                 gren: '#00ff00',
-                white: 'rgb(210, 210, 210)'
+                white: 'rgb(210, 210, 210)',
+                yello: 'rgb(255, 255, 0)'
               }
+          
             }
           }
         }
@@ -31,49 +33,70 @@
     <title>Dougão Lanches</title>
 </head>
 <body>
-   <div class="container  border-linear pb-44 ">
-     <div class="header text-center  border-2 h-44 ms:w-full bg-gradient-to-t from-red-600 to-orange-500 ">
-      <div class="flex">
-          <div class="flex w-16 ">
-               <img class="md:ml-72" src="img/hamburgueorange.png">
-          </div>
-        <div class="title text-reds lg:ml-80">DOUGÃO</div>
-      </div>
+   <div class="container  border-linear pb-4 lg:pl-24 mim-w-screen flex-grow">
+     <div class="header text-center  border-2 h-44 md:w-full bg-gradient-to-t from-red-600 to-orange-500 ">
+        <div class="">
+          <div class="title text-reds lg:ml-80 ">DOUGÃO</div>
+        </div>
           <P class=" lanch lg:mr-64">BEBIDAS</P>
-        <div class="nav ">
-          <ul class="flex flex-row gap-4 ml-20 text-black lg:ml-80">
-                <a href="index.html"><li class="">LANCHES</li></a>
-                <a href="combos.html"> <li class="">COMBOS</li></a>
-                <a href="water.html"><li class="">BEBIDAS</li></a>
-          </ul>
-       </div>
+          <div class="nav lg:ml-96">
+            <ul class="flex flex-row gap-4  ml-24 text-yello ">
+                  <a href="index.html"><li class="">LANCHES</li></a>
+                  <a href="combos.html"> <li class="">COMBOS</li></a>
+                  <a href="water.html"><li class="">BEBIDAS</li></a>
+            </ul>
+        </div>
      </div>
-     <div class="bg-orange-300 w-full water pb-44">
+        <div class="bg-orange-300 w-full water pb-44 h-full">
+             
+          <table class="md:table-fixed pt-2 md:w-full  ">
+             <thead>
+              <tr>
+                <th class="text-xl">BEBIDAS</th>
+                <th class=" text-xl pl-12 ">PREÇO</th>
+              </tr>
+             </thead>
+             <tbody>
+              <tr class="pt-4">
+                <th class="p-2 text-xl text-left">Coca-Cola e Fanta 2 Lt</th>
+                <th class="pl-12 text-red-500 text-xl"><p class="back">12,00</p></th>
+              </tr> 
+              <tr>
+                <th class="p-2 text-xl text-left">Guárana Mantiqueira 2 Lt</th>
+                <th class="pl-12 text-red-500 text-xl"><p class="back">7,00</p></th>
+              </tr> 
+              <tr>
+                <th class="p-2 text-xl text-left">Guraná Mantiqueira de 600 ML</th>
+                <th class="pl-12 text-red-500 text-xl"><p class="back">4,00</p></th>
+              </tr>
+              <tr>
+                <th class="p-2 text-xl text-left">Guraná Mantiqueira de 200 ML</th>
+                <th class="pl-12 text-red-500 text-xl"><p class="back">3,00</p></th>
+              </tr>
+              <tr>
+                <th class="p-2 text-xl text-left">Coca e Fanta de 600 ML</th>
+                <th class="pl-12 text-red-500 text-xl"><p class="back">6,00</p></th>
+              </tr>
+              <tr>
+                <th class="p-2 text-xl text-left">Coca-Cola 200 ML</th>
+                <th class="pl-12 text-red-500 text-xl"><p class="back">3,00</p></th>
+              </tr>
+              <tr>
+                <th class="p-2 text-xl text-left">Suco Delvale Lata</th>
+                <th class="pl-12 text-red-500 text-xl"><p class="back">5,00</p></th>
+              </tr>
+              <tr>
+                <th class="p-2 text-xl text-left">Aguá Mineral 500ml</th>
+                <th class="pl-12 text-red-500 text-xl "><p class="back">3,00</p></th>
+              </tr>
+             </tbody>
+          </table>
 
-       <div class="flex ">
-        <div class="p-2 text">
-          <p class="pb-8 text">Coca e Fanta 2 lts</p>
-          <p class="pb-8 text">Guaraná Mantiqueira 2 lts</p>
-          <p class="pb-8 text">Guaraná Mantiqueira 600 </p>
-          <p class="pb-8 text">Guaraná Mantiqueira 200 </p>
-          <p class="pb-8 text">Coca e Fanta 600 ML</p>
-          <p class="pb-8 text">Coca Cola de 200 ml</p>
-          <p class="pb-8 text">Suco Del Vale lata</p>
-          <p class="pb-8 text">Água Mineral 500 ml</p>
+          <div class="bg-gradient-to-t  from-red-600 to-orange-500 border-2 border-blue-800 ring-2 w-36 ml-32 pt-2 mt-2 lg:ml-72 rounded hover:bg-sky-700">
+            <a href="lanche.html"><button class="p-2 pl-8 text-xl text-white">VOLTAR</button></a>
+          </div>
+          <br>
         </div>
-        <div class=" text-rose-500 pb-24 sm:mr-44">
-          <p class=" bg-white p-2 text-2xl my-2 mx-8">12,00</p> 
-          <p class=" bg-white p-2 text-2xl mx-8 my-2">7,00</p>
-          <p class=" bg-white p-2 text-2xl mx-8 my-2">4,00</p> 
-          <p class=" bg-white p-2 text-2xl m-8 my-2">3,00</p>  
-          <p class=" bg-white p-2 text-2xl mx-8 my-2">6,00</p>
-          <p class=" bg-white p-2 text-2xl mx-8 my-2">3,00</p>
-          <p class=" bg-white p-2 text-2xl mx-8 my-2">5,00</p>
-          <p class=" bg-white p-2 text-2xl mx-8 my-2">3,00</p>
-        </div>
-       </div>
-    </div>
    </div>
- 
 </body>
 </html>
