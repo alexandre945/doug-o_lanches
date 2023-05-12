@@ -1,8 +1,9 @@
-span {
-    font-size: 45px;
-    margin-left: 20px;
-    color: red;
-    font-weight: bold;
+.bol {
+   
+ margin-left: 20px;
+ 
+ 
+    /* font-weight: bold; */
   
 }
 p {
@@ -20,6 +21,15 @@ img {
 }
 .oranges {
     padding-top: -15px;
+}
+.comb {
+    text-align: left; 
+    text-shadow: 7px 7px rgb(128, 41, 0);
+    -webkit-text-strok-width:1px;
+}
+.five {
+    margin-left: 20px;
+
 }
 
 
